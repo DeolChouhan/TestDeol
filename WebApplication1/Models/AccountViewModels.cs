@@ -5,7 +5,7 @@ namespace WebApplication1.Models
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
-        [Display(Name = "User name")]
+        [Display(Name = "User Is Compulsary name")]
         public string UserName { get; set; }
     }
 
